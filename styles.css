@@ -1,3 +1,27 @@
 html {
     background-color: #8C4962;
+    width: 100%;
+
+}
+
+.first_page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+body .texto h1 {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 3rem;
+    color: #d48658;
+}
+
+.imagem_adoção {
+    text-align: center;
+}
+
+.botão {
+    text-align: center;
 }

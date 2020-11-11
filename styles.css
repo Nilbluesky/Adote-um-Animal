@@ -4,8 +4,6 @@ html {
     background: radial-gradient(circle, #ff94bc 0%, #62007efd 100%);
 }
 
-
-
 html .first_page {
     text-align: center;
     font-family: 'Playfair Display', serif;
@@ -26,11 +24,12 @@ body .texto h1 {
 
 .name_animal {
     font-size: 3rem;
-    color: #9a7bff;
+    color: #6e00a1fd;
 }
 
 .imagem_adoção {
     text-align: center;
+    font-size: 100px;
 }
 
 .botão .cta {

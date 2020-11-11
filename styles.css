@@ -2,11 +2,13 @@ html {
     width: 100%;
     background: #ff94bc;
     background: radial-gradient(circle, #ff94bc 0%, #62007efd 100%);
+    overflow: hidden;
 }
 
 html .first_page {
     text-align: center;
     font-family: 'Playfair Display', serif;
+
 }
 
 .first_page {
@@ -42,9 +44,13 @@ body .texto h1 {
     font-size: 30px;
     text-decoration: none;
     text-align: justify;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #6e00a1fd;
 }
 
 .botão .cta:hover {
     background-color: #6e00a1fd;
     color: #e4e4e4;
+    border-color: #b39bff;
 }

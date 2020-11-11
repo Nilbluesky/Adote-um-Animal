@@ -2,6 +2,13 @@ html {
     background-color: #8C4962;
     width: 100%;
 
+
+}
+
+html {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+
 }
 
 .first_page {
@@ -12,16 +19,30 @@ html {
 }
 
 body .texto h1 {
-    font-family: 'Playfair Display', serif;
     text-align: center;
     font-size: 3rem;
-    color: #d48658;
+    color: #f6f6f6;
 }
 
 .imagem_adoção {
     text-align: center;
+ 
 }
 
-.botão {
-    text-align: center;
+.botão .cta {
+    padding: 12px 50px;
+    background-color:#fd782b;
+    color: black;
+    border-radius: 60px;
+    cursor: pointer;
+    transition: all 0.9s ease 0.2s;
+    font-size: 30px;
+    text-decoration: none;
+    text-align: justify;
+
+}
+
+.botão .cta:hover {
+    background-color: #f04c0b77;
+    color: white;
 }

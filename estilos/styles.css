@@ -1,0 +1,67 @@
+html,
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: #ffab4b;
+}
+
+nav ul li a {
+    color: white;
+}
+
+.logo .nav_links .cta {
+    font-weight: 500;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 36px 10%;
+    grid-area: header;
+}
+
+.logo {
+    cursor: pointer;
+    width: 100px;
+}
+
+.nav_links {
+    list-style: none;
+    font-size: 25px;
+    font-family: 'Playfair Display', serif;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+    color: white;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+
+.nav_links li a:hover {
+    color: #006dac;
+    text-decoration: white;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: #FFEB63;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-size: 20px;
+    color: #006dac;
+}
+
+button:hover {
+    color: #ec8107;
+    background-color: rgb(10, 126, 194);
+}

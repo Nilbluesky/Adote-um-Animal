@@ -38,20 +38,20 @@ body .texto h1 {
 .botão .cta {
     padding: 12px 50px;
     background-color: #FFEB63;
-    border-color: #cfb523;
+    border-color: #ffbb00;
     border-radius: 60px;
     cursor: pointer;
     transition: all 0.9s ease 0.2s;
     font-size: 30px;
     text-decoration: none;
     text-align: justify;
-    border-width: 3px;
+    border-width: 4px;
     border-style: solid;
     color: #006dac
 }
 
 .botão .cta:hover {
     border-color: #52bcfa;
-    color: #ffeb63;
+    color: #ec8107;
     background-color: rgb(10, 126, 194);
 }

@@ -1,13 +1,13 @@
 html {
     width: 100%;
-    background: #ff94bc;
-    background: radial-gradient(circle, #ff94bc 0%, #62007efd 100%);
+    background: #ec8107;
+
     overflow: hidden;
 }
 
 html .first_page {
     text-align: center;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Lora', serif;
 
 }
 
@@ -26,7 +26,9 @@ body .texto h1 {
 
 .name_animal {
     font-size: 3rem;
-    color: #6e00a1fd;
+    color: rgb(10, 126, 194);
+    text-decoration: none;
+    font-style: normal;
 }
 
 .imagem_adoção {
@@ -36,8 +38,8 @@ body .texto h1 {
 
 .botão .cta {
     padding: 12px 50px;
-    background-color: #9a7bff;
-    color: black;
+    background-color: #FFEB63;
+    border-color: #cfb523;
     border-radius: 60px;
     cursor: pointer;
     transition: all 0.9s ease 0.2s;
@@ -46,11 +48,11 @@ body .texto h1 {
     text-align: justify;
     border-width: 3px;
     border-style: solid;
-    border-color: #6e00a1fd;
+    color: #006dac
 }
 
 .botão .cta:hover {
-    background-color: #6e00a1fd;
-    color: #e4e4e4;
-    border-color: #b39bff;
+    border-color: #52bcfa;
+    color: #ffeb63;
+    background-color: rgb(10, 126, 194);
 }

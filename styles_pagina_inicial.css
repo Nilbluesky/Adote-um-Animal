@@ -1,0 +1,57 @@
+html {
+    width: 100%;
+    background: #ec8107;
+    overflow: hidden;
+}
+
+html .first_page {
+    text-align: center;
+    font-family: 'Lora', serif;
+    overflow: hidden;
+}
+
+.first_page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+body .texto h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: #f6f6f6;
+}
+
+.name_animal {
+    font-size: 3rem;
+    color: rgb(10, 126, 194);
+    text-decoration: none;
+    font-style: normal;
+}
+
+.imagem_adoção {
+    text-align: center;
+    font-size: 100px;
+}
+
+.botão .cta {
+    padding: 12px 50px;
+    background-color: #FFEB63;
+    border-color: #cfb523;
+    border-radius: 60px;
+    cursor: pointer;
+    transition: all 0.9s ease 0.2s;
+    font-size: 30px;
+    text-decoration: none;
+    text-align: justify;
+    border-width: 3px;
+    border-style: solid;
+    color: #006dac
+}
+
+.botão .cta:hover {
+    border-color: #52bcfa;
+    color: #ffeb63;
+    background-color: rgb(10, 126, 194);
+}

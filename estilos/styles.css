@@ -3,7 +3,8 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background: #ffab4b;
+    background: #ffab4bbd;
+    font-size: 62.5%;
 }
 
 nav ul li a {
@@ -19,8 +20,10 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 36px 10%;
+    padding: 5px 3%;
     grid-area: header;
+    background-color: #ff8b0652;
+
 }
 
 .logo {
@@ -38,10 +41,11 @@ header {
     padding: 0px 20px;
     color: white;
     font-family: "lora", serif;
+    font-size: 2.6rem;
 }
 
 .nav_links li a {
-    transition: all 0.3s ease 0s;
+    transition: all 0.7s ease 0s;
     text-decoration: none;
 }
 
@@ -56,8 +60,8 @@ button {
     border-radius: 50px;
     border: none;
     cursor: pointer;
-    transition: all 0.7s ease 0s;
-    font-size: 20px;
+    transition: all 1s ease 0s;
+    font-size: 2.6rem;
     color: #006dac;
 }
 

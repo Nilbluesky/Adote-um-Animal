@@ -42,12 +42,34 @@
                     <li><a href="#">Contato</a></li>
                 </ul>
             </nav>
-            <a class="cta" href="#"><button>Faça uma doação</button></a>
+            <a class="cta" href="#"><button>Faça uma Doação</button></a>
         </header>
         <main>
             <nav>
                 <p class="frase_ad">Adotar é um gesto de amor!</p>
-                <img class="cão_back" src="imagens/cão_background_1920xalgum.jpg" alt="Mulher Abraçando Animal">
+                <nav class="Slide">
+                    <img class="cão_back" src="imagens/cão_background_1920x820.jpg" alt="Cão e Gato Bricando">
+                    <img class="cão_back" src="imagens/gato_background_1_1920x820.jpg" alt="gatos dormindo">
+                    <img class="cão_back" src="imagens/cão_background_2_1920x820.jpg" alt="cães felizes">
+                    <script>
+                        var myIndex = 0;
+                        carousel();
+
+                        function carousel() {
+                            var i;
+                            var x = document.getElementsByClassName("cão_back");
+                            for (i = 0; i < x.length; i++) {
+                                x[i].style.display = "none";
+                            }
+                            myIndex++;
+                            if (myIndex > x.length) {
+                                myIndex = 1
+                            }
+                            x[myIndex - 1].style.display = "block";
+                            setTimeout(carousel, 3000); // Change image every 2 seconds
+                        }
+                    </script>
+                </nav>
             </nav>
         </main>
         <aside>

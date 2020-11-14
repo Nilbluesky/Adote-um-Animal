@@ -25,7 +25,7 @@ header {
     background-color: #ff8b0652;
 }
 
-.logo {
+header div {
     cursor: pointer;
 }
 
@@ -82,7 +82,7 @@ main p {
     height: auto;
     float: left;
     text-align: center;
-    color:  #006dac;
+    color: #006dac;
     font-size: 18em;
     font-weight: bold;
     position: absolute;

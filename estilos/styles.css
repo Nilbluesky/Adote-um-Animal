@@ -1,92 +1,124 @@
-html,
-body {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    background: #fdaf56;
-    font-size: 62.5%;
-}
+ html {
+     width: max-content 100%;
+     overflow-x: hidden;
+ }
 
-nav ul li a {
-    color: white;
-}
+ html,
+ body {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+     background: #fdaf56;
+     font-size: 62.5%;
+ }
 
-.logo .nav_links .cta {
-    font-weight: 500;
-    text-decoration: none;
-}
+ nav ul li a {
+     color: white;
+ }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5px 3%;
-    grid-area: header;
-    background-color: #fdaf56;
-}
+ .logo .nav_links .cta {
+     font-weight: 500;
+     text-decoration: none;
+ }
 
-header div {
-    cursor: pointer;
-}
+ header {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 5px 3%;
+     grid-area: header;
+     background-color: #fdaf56;
+ }
 
-.nav_links {
-    list-style: none;
-    font-size: 25px;
-    font-family: 'lora', serif;
-}
+ header div {
+     cursor: pointer;
+ }
 
-.nav_links li {
-    display: inline-block;
-    padding: 0px 20px;
-    color: white;
-    font-family: "lora", serif;
-    font-size: 2.6rem;
-}
+ .nav_links {
+     list-style: none;
+     font-size: 25px;
+     font-family: 'lora', serif;
+ }
 
-.nav_links li a {
-    transition: all 0.7s ease 0s;
-    text-decoration: none;
-}
+ .nav_links li {
+     display: inline-block;
+     padding: 0px 20px;
+     color: white;
+     font-family: "lora", serif;
+     font-size: 2.6rem;
+ }
 
-.nav_links li a:hover {
-    color: #006dac;
-    text-decoration: white;
-}
+ .nav_links li a {
+     transition: all 0.7s ease 0s;
+     text-decoration: none;
+ }
 
-button {
-    padding: 9px 25px;
-    background-color: #ecd959;
-    border-radius: 50px;
-    border: none;
-    cursor: pointer;
-    transition: all 1s ease 0s;
-    font-size: 2.6rem;
-    color: #0478bb;
-    font-family: "lora", serif;
-}
+ .nav_links li a:hover {
+     color: #006dac;
+     text-decoration: white;
+ }
 
-button:hover {
-    color: #ec8107;
-    background-color: rgb(10, 126, 194);
-}
+ button {
+     padding: 9px 25px;
+     background-color: #ecd959;
+     border-radius: 50px;
+     border: none;
+     cursor: pointer;
+     transition: all 1s ease 0s;
+     font-size: 2.6rem;
+     color: #0478bb;
+     font-family: "lora", serif;
+     font-weight: 500;
+     box-shadow: rgba(0, 0, 0, .2) 0 6px 8px 0;
+ }
 
-cão-back {
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
-    content: Adotar é um gesto de amor !;
-    color: black;
-}
+ button:hover {
+     color: #ec8107;
+     background-color: rgb(10, 126, 194);
+ }
 
-main p {
-    width: 100%;
-    height: auto;
-    float: left;
-    text-align: center;
-    color: #006dac;
-    font-size: 16em;
-    font-weight: bold;
-    position: absolute;
-    background-color: rgba(224, 224, 224, 0.541);
-    font-family: 'Cormorant Garamond', serif;
-}
+ cão-back {
+     background-position: center;
+     background-size: cover;
+     height: 100vh;
+     position: absolute;
+     color: black;
+     box-shadow: rgba(0, 0, 0, .2) 0 6px 8px 0;
+ }
+
+ main p {
+     width: 100%;
+     height: auto;
+     float: left;
+     text-align: center;
+     color: #006dac;
+     font-size: 16em;
+     font-weight: bold;
+     position: absolute;
+     background-color: rgba(224, 224, 224, 0.541);
+     font-family: 'Cormorant Garamond', serif;
+ }
+
+
+ aside nav .frase {
+     width: 100%;
+     height: auto;
+     text-align: left;
+     font-size: 4rem;
+     font-family: "lora", serif;
+     text-align: center;
+     font-size: 500;
+     background-color: rgba(255, 255, 255, 0.431);
+     padding: 1em;
+     color: #006dac;
+ }
+
+ aside .display_de_animais {
+     padding: 30px;
+     justify-content: center;
+     justify-items: center;
+     display: grid;
+     grid-gap: 30px;
+     grid-template-columns: repeat(auto-fit, 600px);
+     font-size: 3rem;
+ }

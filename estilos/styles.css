@@ -83,9 +83,9 @@ main p {
     float: left;
     text-align: center;
     color: #006dac;
-    font-size: 18em;
+    font-size: 16em;
     font-weight: bold;
     position: absolute;
-    background-color: rgba(119, 119, 119, 0.356);
-    font-family: "lora", serif;
+    background-color: rgba(146, 146, 146, 0.356);
+    font-family: 'Cormorant Garamond', serif;
 }

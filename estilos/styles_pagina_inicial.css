@@ -14,7 +14,8 @@ html .first_page {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100vh;
+    min-height: 100vh;
+
 }
 
 body .texto h1 {
@@ -55,3 +56,4 @@ body .texto h1 {
     color: #ec8107;
     background-color: rgb(10, 126, 194);
 }
+

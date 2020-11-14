@@ -23,7 +23,6 @@ header {
     padding: 5px 3%;
     grid-area: header;
     background-color: #ff8b0652;
-
 }
 
 .logo {
@@ -68,4 +67,25 @@ button {
 button:hover {
     color: #ec8107;
     background-color: rgb(10, 126, 194);
+}
+
+cão-back {
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    content: Adotar é um gesto de amor !;
+    color: black;
+}
+
+main p {
+    width: 100%;
+    height: auto;
+    float: left;
+    text-align: center;
+    color:  #006dac;
+    font-size: 18em;
+    font-weight: bold;
+    position: absolute;
+    background-color: rgba(119, 119, 119, 0.356);
+    font-family: "lora", serif;
 }
